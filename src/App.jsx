@@ -17,13 +17,13 @@ function App() {
         </a>
       </div>
       <h1>Vite</h1>
-      <div className="card">
+      <div className="card bg-blue-500 text-white p-4 rounded-lg shadow-lg">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+      <p className="read-the-docs text-red-500 text-5xl">Click on the Vite and React logos to learn more</p>
     </>
   );
 }
